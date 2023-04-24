@@ -16,50 +16,56 @@
 }
 
 @media (min-width: 640px) {
+
   .titleh2{
     font-size:60px;
-}
+  }
   .titleh3{
     font-size:60px;
-}
-  .styleinput{
-    font-size: 30px;
+  }
+  #question-1-answer-a, #question-1-answer-b, #question-1-answer-c{
+    margin: 6px 6px 0px 10px;
+    height: 30px;
+    width: 30px;
+  }
+  .style-input{
+    font-size: 35px;
   }
   .container{
     width: 90%;
     padding: 0; 
-}
+  }
   .column{
     margin-left: 4%; 
-}
+  }
   .column:first-child{
     margin-left: 0; 
-}
+  }
   .full-width.column{ 
     width: 100%; 
     margin-left: 0; 
-}  
+  }  
   .one-half.column{ 
     width: 48%; 
-}
+  }
   .one-third.column{
     width: 100%; 
-}
+  }
   .two-thirds.column{ 
     width: 100%; 
-}
+  }
   .one-quarter.column{ 
     width: 100%; 
-}
+  }
   .two-quarter.column{ 
     width: 100%; 
-}
+  }
   .three-quarter.column{ 
     width: 100%; 
-}
+  }
   .one-half.column{ 
     width: 100%; 
-}
+  }
 
 }
 
