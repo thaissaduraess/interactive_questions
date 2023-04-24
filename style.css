@@ -18,10 +18,14 @@
 @media (min-width: 640px) {
 
   .titleh2{
-    font-size:60px;
+    font-size:60px !important;
+  }
+
+  h2{
+    font-size: 35px;
   }
   .titleh3{
-    font-size:60px;
+    font-size: 60px;
   }
   #question-1-answer-a, #question-1-answer-b, #question-1-answer-c{
     margin: 6px 6px 0px 10px;
