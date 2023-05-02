@@ -43,9 +43,9 @@ var question_five = document.getElementById('question-5');
 
     function getInfoBasedOnScore(){
         if(totalScore() < 7){
-            var score_info = "Você precisa tomar mais cuidado com a segurança!";
+            var score_info = "Você precisa tomar decisóes importantes para o crescimento do seu condomínio!";
         } else if(totalScore() > 7){
-            var score_info = "Parabéns! Você está bem de segurança!"
+            var score_info = "Parabéns! O seu condomínio está bem, mas podemos melhorar ainda mais!"
         }
 
         return score_info;
